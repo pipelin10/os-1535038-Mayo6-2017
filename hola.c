@@ -37,4 +37,5 @@ int main(int argc, char **argv){
 		pthread_join(hilos[i],NULL);
 	}
 	pthread_exit(NULL);
-	return 
+	return 0;
+}
